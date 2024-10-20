@@ -1,0 +1,82 @@
+.home-container {
+    background-color: #000; /* Black background */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* White text color */
+  }
+  
+  .welcome-text {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .tagline {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .pet-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+  }
+  
+  .pet-selection {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .pet-button {
+    background-color: rgb(0, 0, 0); /* Grey button color */
+    color: white;
+    border: none;
+    padding: 0.5rem; /* Smaller padding for smaller buttons */
+    font-size: 2rem; /* Adjust font size for better visual */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pet-button:hover {
+    background-color: #161414; /* Lighter grey on hover */
+  }
+  
+  .pet-button.selected {
+    background-color: #161414; /* Darker grey when selected */
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .action-button {
+    background-color: #ff4500; /* Orange button color */
+    color: #fff;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .action-button:hover {
+    background-color: #ff6347; /* Slightly lighter orange on hover */
+  }
+  

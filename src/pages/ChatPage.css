@@ -1,0 +1,88 @@
+.chat-page {
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .chat-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #161414; /* Dark background for chat box */
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .chat-box {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #333;
+  }
+  
+  .message {
+    padding: 0.75rem; /* Increased padding for better visual */
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    max-width: 75%;
+    font-size: 1.5rem; /* Increase font size for messages */
+  }
+  
+  .message.from-user {
+    background-color: #4CAF50; /* Green bubble for user messages */
+    margin-left: auto;
+    text-align: right;
+  }
+  
+  .message.from-pet {
+    background-color: #2196F3; /* Blue bubble for pet messages */
+    text-align: left;
+  }
+  
+  .chat-input-container {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .chat-input-container input {
+    flex-grow: 1;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem; /* Increase font size for input */
+  }
+  
+  .chat-input-container button {
+    padding: 0.75rem 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.2rem; /* Increase font size for button */
+  }
+  
+  .chat-input-container button:hover {
+    background-color: #388E3C;
+  }
+  
+  /* Decorative elements styles */
+  .pet-decoration {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .pet-icon {
+    font-size: 2rem; /* Adjust the size of the pet icons */
+    margin: 0 0.5rem;
+  }
+  

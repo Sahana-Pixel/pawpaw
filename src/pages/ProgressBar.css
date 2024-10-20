@@ -1,0 +1,26 @@
+.progress-bar-container {
+    margin: 1rem 0;
+  }
+  
+  .label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #e0e0e0; /* Light grey background */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for the entire bar */
+  }
+  
+  .progress {
+    height: 20px; /* Height of the progress bar */
+    transition: width 0.3s ease; /* Smooth transition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Shadow on the progress */
+  
+    /* Default colors; these will be overridden in the component */
+    background-color: #2196F3; /* Default blue */
+  }
+  

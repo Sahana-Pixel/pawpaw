@@ -1,0 +1,85 @@
+.feed-page {
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .pet-avatar {
+    margin-bottom: 1rem;
+  }
+  
+  .pet-avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .post-input {
+    margin: 1rem 0;
+  }
+  
+  .post-input textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    resize: none; /* Prevent resizing */
+    background-color: #161414; /* Dark background */
+    color: white;
+  }
+  
+  .post-input button {
+    padding: 0.75rem 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .post-input button:hover {
+    background-color: #388E3C;
+  }
+  
+  .feed-display {
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .feed-post {
+    display: flex;
+    align-items: flex-start;
+    background-color: #161414; /* Dark background for posts */
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .post-avatar {
+    margin-right: 1rem;
+  }
+  
+  .post-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .post-content {
+    flex-grow: 1;
+  }
+  
+  .timestamp {
+    display: block;
+    font-size: 0.8rem;
+    color: #bbb;
+    margin-top: 0.5rem;
+  }
+  
